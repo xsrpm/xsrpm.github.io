@@ -21,12 +21,14 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 15
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
      - cemp2703
+     - xsrpm
+
     # - repo-name
 
 social_media:
