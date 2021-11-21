@@ -1,76 +1,26 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Featured Projects</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">The three best personal projects.</p>
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %} style="padding-block-end:20px;">Mis Proyectos</h2>
+<!--
+  <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Proyectos web seleccionados.</p>
+-->
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4" style="display:flex;flex-direction: column; gap:20px">
+  {% for project in site.data.projects %}
   <article class="featured-project">
-    <h3>Proyecto 1</h3>
+    <h3>{{project.title}}</h3>
     <picture>
-      <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg" alt="project1"/>
+      <img src="{{project.image}}" alt="project1"/>
     </picture>
     <div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, voluptas quo architecto nesciunt id non minus sunt cumque voluptate explicabo illo totam aut cupiditate facilis repellat veritatis dolores illum quasi.</p>
+      <p>{{project.description}}</p>
       <ul>
-        <li>vs code</li>
-        <li>javascript</li>
-        <li>css</li>
-        <li>html</li>
-        <li>nodejs</li>
+        {% for tag in project.tags %}
+        <li>{{tag}}</li>
+        {% endfor %}
       </ul>
       <ul>
-        <li><a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
-        <li><a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></li>
+        <li><a href="{{project.external-site}}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>Enlace al proyecto</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></li>
+        <li><a href="{{project.github}}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>Repositorio en GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
       </ul>
     </div>
   </article>
-  <article class="featured-project">
-    <h3>Proyecto 2</h3>
-    <picture>
-      <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg" alt="project1"/>
-    </picture>
-    <div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, voluptas quo architecto nesciunt id non minus sunt cumque voluptate explicabo illo totam aut cupiditate facilis repellat veritatis dolores illum quasi.</p>
-      <ul>
-        <li>vs code</li>
-        <li>javascript</li>
-        <li>css</li>
-        <li>html</li>
-        <li>nodejs</li>
-        <li>html</li>
-        <li>nodejs</li>
-        <li>html</li>
-        <li>nodejs</li>
-        <li>html</li>
-        <li>nodejs</li>
-      </ul>
-      <ul>
-        <li><a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
-        <li><a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></li>
-      </ul>
-    </div>
-  </article>
-  <article class="featured-project">
-    <h3>Proyecto 3</h3>
-    <picture>
-      <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg" alt="project1"/>
-    </picture>
-    <div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, voluptas quo architecto nesciunt id non minus sunt cumque voluptate explicabo illo totam aut cupiditate facilis repellat veritatis dolores illum quasi.</p>
-      <ul>
-        <li>vs code</li>
-        <li>javascript</li>
-        <li>css</li>
-        <li>html</li>
-        <li>nodejs</li>
-        <li>html</li>
-        <li>nodejs</li>
-        <li>html</li>
-        <li>nodejs</li>
-        <li>html</li>
-        <li>nodejs</li>
-      </ul>
-      <ul>
-        <li><a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
-        <li><a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></li>
-      </ul>
-    </div>
-  </article>
+  {% endfor %}
 </div>

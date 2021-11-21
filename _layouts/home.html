@@ -11,8 +11,8 @@
     <div class="my-6">
       {% include featured-projects.html %}
     </div>
-
-    <div class="my-6">
+<!--
+      <div class="my-6">
       {% include projects.html %}
     </div>
 
@@ -27,6 +27,8 @@
         {% include thoughts.html %}
       </div>
     {% endunless %}
+-->
+
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -54,6 +56,7 @@ top: 50px
 
         {% include featured-projects.html %}
 
+        <!--
         {% include projects.html %}
 
         {% if site.topics %}
@@ -63,6 +66,8 @@ top: 50px
         {% unless posts_total == 0 %}
           {% include thoughts.html %}
         {% endunless %}
+        -->
+
       </div>
     </div>
   </div>

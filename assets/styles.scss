@@ -76,6 +76,7 @@
 .featured-project > picture > img {
   width: 100%;
   object-fit: contain;
+  max-height: 300px;
 }
 .featured-project > div {
   /*padding: 20px;*/
