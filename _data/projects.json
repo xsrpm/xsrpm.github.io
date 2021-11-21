@@ -1,26 +1,26 @@
 [
-{
-	"title":"Sunnyside agency landing page",
-	"description":"Maquetación web de landing page",
-	"image":"/assets/img/projects/sunnyside-agency-landing-page.png",
-	"tags":["html","css","javascript","mobile-first","responsive-design"],
-	"external-site":"https://xsrpm.github.io/standard-web-projects/css/sunnyside-agency-landing-page/",
-	"github":"https://github.com/xsrpm/standard-web-projects/tree/master/css/sunnyside-agency-landing-page",
-},
-{
-	"title":"Loopstudios landing page",
-	"description":"Maquetación web de landing page",
-	"image":"/assets/img/projects/loopstudios-landing-page.png",
-	"tags":["html","css","javascript","mobile-first","responsive-design"],
-	"external-site":"https://xsrpm.github.io/standard-web-projects/css/loopstudios-landing-page/",
-	"github":"https://github.com/xsrpm/standard-web-projects/tree/master/css/loopstudios-landing-page",
-},
-{
-	"title":"Blogr landing page",
-	"description":"Maquetación web de landing page",
-	"image":"/assets/img/projects/blogr-landing-page.png",
-	"tags":["html","css","javascript","mobile-first","responsive-design"],
-	"external-site":"https://xsrpm.github.io/standard-web-projects/css/blogr-landing-page/",
-	"github":"https://github.com/xsrpm/standard-web-projects/tree/master/css/blogr-landing-page",
-}
+  {
+    "title": "Sunnyside agency landing page",
+    "description": "Maquetación web de landing page",
+    "image": "/assets/img/projects/sunnyside-agency-landing-page.jpg",
+    "tags": ["html", "css", "javascript", "mobile-first", "responsive-design"],
+    "external-site": "https://xsrpm.github.io/standard-web-projects/css/sunnyside-agency-landing-page/",
+    "github": "https://github.com/xsrpm/standard-web-projects/tree/master/css/sunnyside-agency-landing-page"
+  },
+  {
+    "title": "Loopstudios landing page",
+    "description": "Maquetación web de landing page",
+    "image": "/assets/img/projects/loopstudios-landing-page.jpg",
+    "tags": ["html", "css", "javascript", "mobile-first", "responsive-design"],
+    "external-site": "https://xsrpm.github.io/standard-web-projects/css/loopstudios-landing-page/",
+    "github": "https://github.com/xsrpm/standard-web-projects/tree/master/css/loopstudios-landing-page"
+  },
+  {
+    "title": "Blogr landing page",
+    "description": "Maquetación web de landing page",
+    "image": "/assets/img/projects/blogr-landing-page.jpg",
+    "tags": ["html", "css", "javascript", "mobile-first", "responsive-design"],
+    "external-site": "https://xsrpm.github.io/standard-web-projects/css/blogr-landing-page/",
+    "github": "https://github.com/xsrpm/standard-web-projects/tree/master/css/blogr-landing-page"
+  }
 ]
