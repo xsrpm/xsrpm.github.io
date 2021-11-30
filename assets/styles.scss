@@ -72,8 +72,10 @@
 .featured-project > picture {
   border-radius: 5px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.featured-project > picture > img {
+.featured-project > picture > a > img {
   width: 100%;
   object-fit: contain;
   max-height: 300px;
@@ -110,6 +112,7 @@
   justify-content: center;
   word-break: break-all;
   margin: 5px;
+  font-size: 0.7rem;
 }
 .featured-project h3 {
   color: white;
@@ -120,7 +123,7 @@
   text-align: justify;
 }
 .featured-project svg {
-  width: 32px;
+  width: 40px;
   color: white;
   display: inline-block;
   border-radius: 50%;
