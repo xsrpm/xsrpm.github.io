@@ -1,5 +1,23 @@
 [
   {
+    "title": "Rest Countries",
+    "description": "Web app para buscar información de países por nombre. Los datos son obtenidos de una api externa.",
+    "image": "/assets/img/projects/rest-countries.png",
+    "tags": [
+      "html",
+      "flexbok",
+      "css grid",
+      "javascript",
+      "mobile-first",
+      "responsive-design",
+      "reactjs",
+      "css modules",
+      "wouter"
+    ],
+    "external-site": "https://xsrpm.github.io/rest-countries/",
+    "github": "https://github.com/xsrpm/rest-countries"
+  },
+  {
     "title": "Sunnyside agency landing page",
     "description": "Maquetación web de landing page",
     "image": "/assets/img/projects/sunnyside-agency-landing-page.jpg",
