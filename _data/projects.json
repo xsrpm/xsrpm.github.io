@@ -1,11 +1,28 @@
 [
   {
+    "title": "Yard Sale",
+    "description": "Carrito de compras usando una API externa para la lista de productos (En construcción)",
+    "image": "/assets/img/projects/yard-sale.png",
+    "tags": [
+      "html",
+      "flexbox",
+      "css grid",
+      "javascript",
+      "mobile-first",
+      "responsive-design",
+      "reactjs",
+      "react-router",
+    ],
+    "external-site": "https://yard-sale-xsr.netlify.app/",
+    "github": "https://github.com/xsrpm/yard-sale"
+  },
+  {
     "title": "Rest Countries",
     "description": "Web app para buscar información de países por nombre. Los datos son obtenidos de una api externa.",
     "image": "/assets/img/projects/rest-countries.png",
     "tags": [
       "html",
-      "flexbok",
+      "flexbox",
       "css grid",
       "javascript",
       "mobile-first",
