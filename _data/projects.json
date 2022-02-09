@@ -1,7 +1,7 @@
 [
   {
     "title": "Yard Sale",
-    "description": "Carrito de compras usando una API externa para la lista de productos (En construcción)",
+    "description": "Carrito de compras usando una API externa para la lista de productos",
     "image": "/assets/img/projects/yard-sale.png",
     "tags": [
       "html",
@@ -11,7 +11,7 @@
       "mobile-first",
       "responsive-design",
       "reactjs",
-      "react-router",
+      "react-router"
     ],
     "external-site": "https://yard-sale-xsr.netlify.app/",
     "github": "https://github.com/xsrpm/yard-sale"
