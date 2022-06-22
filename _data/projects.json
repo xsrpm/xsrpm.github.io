@@ -1,5 +1,13 @@
 [
   {
+    "title": "Wikipedia Desktop Clone",
+    "description": "Clone de la portada de la web de Wikipedia versión de escritorio",
+    "image": "/assets/img/projects/wikipedia-clone.png",
+    "tags": ["reactjs", "typescript", "standardjs", "vitejs", "css modules"],
+    "external-site": "https://wikipediadesktopclone.netlify.app/",
+    "github": "https://github.com/xsrpm/wikipedia-clone"
+  },
+  {
     "title": "Yard Sale",
     "description": "Carrito de compras usando una API externa para la lista de productos",
     "image": "/assets/img/projects/yard-sale.png",
