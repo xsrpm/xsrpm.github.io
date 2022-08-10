@@ -1,51 +1,11 @@
 [
   {
-    "title": "Wikipedia Desktop Clone",
-    "description": "Clone de la portada de la web de Wikipedia versión de escritorio",
-    "image": "/assets/img/projects/wikipedia-clone.png",
-    "tags": ["frontend", "react", "typescript"],
-    "external-site": "https://wikipediadesktopclone.netlify.app/",
-    "github": "https://github.com/xsrpm/wikipedia-clone"
-  },
-  {
     "title": "Yard Sale",
     "description": "Carrito de compras usando una API externa para la lista de productos",
     "image": "/assets/img/projects/yard-sale.png",
     "tags": ["frontend", "react", "react-router", "ecommerce", "api-externa"],
     "external-site": "https://yard-sale-xsr.netlify.app/",
     "github": "https://github.com/xsrpm/yard-sale"
-  },
-  {
-    "title": "Rest Countries",
-    "description": "Web app para buscar información de países por nombre. Los datos son obtenidos de una api externa.",
-    "image": "/assets/img/projects/rest-countries.png",
-    "tags": ["frontend", "react", "api-externa"],
-    "external-site": "https://xsrpm.github.io/rest-countries/",
-    "github": "https://github.com/xsrpm/rest-countries"
-  },
-  {
-    "title": "Sunnyside agency landing page",
-    "description": "Maquetación web de landing page",
-    "image": "/assets/img/projects/sunnyside-agency-landing-page.jpg",
-    "tags": ["frontend", "javascript-vanilla"],
-    "external-site": "https://xsrpm.github.io/standard-web-projects/css/sunnyside-agency-landing-page/",
-    "github": "https://github.com/xsrpm/standard-web-projects/tree/master/css/sunnyside-agency-landing-page"
-  },
-  {
-    "title": "Loopstudios landing page",
-    "description": "Maquetación web de landing page",
-    "image": "/assets/img/projects/loopstudios-landing-page.jpg",
-    "tags": ["frontend", "javascript-vanilla"],
-    "external-site": "https://xsrpm.github.io/standard-web-projects/css/loopstudios-landing-page/",
-    "github": "https://github.com/xsrpm/standard-web-projects/tree/master/css/loopstudios-landing-page"
-  },
-  {
-    "title": "Blogr landing page",
-    "description": "Maquetación web de landing page",
-    "image": "/assets/img/projects/blogr-landing-page.jpg",
-    "tags": ["frontend", "javascript-vanilla"],
-    "external-site": "https://xsrpm.github.io/standard-web-projects/css/blogr-landing-page/",
-    "github": "https://github.com/xsrpm/standard-web-projects/tree/master/css/blogr-landing-page"
   },
   {
     "title": "BattleCard",
@@ -62,11 +22,11 @@
     "github": "https://github.com/xsrpm/battlecard"
   },
   {
-    "title": "Chat React",
-    "description": "Sala de chat",
-    "image": "/assets/img/projects/chat-react.png",
-    "tags": ["fullstack", "react", "nodejs", "expressjs", "websockets"],
-    "external-site": "https://chat-react-xsr.herokuapp.com/",
-    "github": "https://github.com/xsrpm/chat-react"
+    "title": "Rest Countries",
+    "description": "Web app para buscar información de países. Los datos son obtenidos de una api externa.",
+    "image": "/assets/img/projects/rest-countries.png",
+    "tags": ["frontend", "react", "api-externa"],
+    "external-site": "https://xsrpm.github.io/rest-countries/",
+    "github": "https://github.com/xsrpm/rest-countries"
   }
 ]
