@@ -8,6 +8,14 @@
     "github": "https://github.com/xsrpm/yard-sale"
   },
   {
+	"title": "Authenticated To-Do",
+    "description": "To-Do List App con Autenticación de usuario",
+    "image": "/assets/img/projects/authenticated-todo.png",
+    "tags": ["fullstack", "react", "crud", "typescript","autenticación"],
+    "external-site": "https://authenticated-todo-xsr.vercel.app/",
+    "github": "https://github.com/xsrpm/authenticated-todo"
+  },
+  {
     "title": "BattleCard",
     "description": "Juego de cartas usando barajas inglesas; para 2 personas en tiempo real",
     "image": "/assets/img/projects/battlecard.png",
@@ -22,20 +30,20 @@
     "github": "https://github.com/xsrpm/battlecard"
   },
   {
-    "title": "Rest Countries",
-    "description": "Web app para buscar información de países. Los datos son obtenidos de una api externa.",
-    "image": "/assets/img/projects/rest-countries.png",
-    "tags": ["frontend", "react", "api-externa"],
-    "external-site": "https://xsrpm.github.io/rest-countries/",
-    "github": "https://github.com/xsrpm/rest-countries"
-  },
-  {
     "title": "Chat React",
     "description": "Sala de chat",
     "image": "/assets/img/projects/chat-react.png",
     "tags": ["fullstack", "react", "expressjs", "websockets", "chat-realtime"],
     "external-site": "https://chat-react-xsr.herokuapp.com/",
     "github": "https://github.com/xsrpm/chat-react"
+  },
+  {
+    "title": "Rest Countries",
+    "description": "Web app para buscar información de países. Los datos son obtenidos de una api externa.",
+    "image": "/assets/img/projects/rest-countries.png",
+    "tags": ["frontend", "react", "api-externa"],
+    "external-site": "https://xsrpm.github.io/rest-countries/",
+    "github": "https://github.com/xsrpm/rest-countries"
   },
   {
     "title": "Loopstudios landing page",
