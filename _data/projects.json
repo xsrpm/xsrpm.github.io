@@ -1,17 +1,9 @@
 [
   {
-    "title": "Yard Sale",
-    "description": "Carrito de compras usando una API externa para la lista de productos",
-    "image": "/assets/img/projects/yard-sale.png",
-    "tags": ["frontend", "react", "react-router", "ecommerce", "api-externa"],
-    "external-site": "https://yard-sale-xsr.netlify.app/",
-    "github": "https://github.com/xsrpm/yard-sale"
-  },
-  {
-	"title": "Authenticated To-Do",
+    "title": "Authenticated To-Do",
     "description": "To-Do List App con Autenticación de usuario",
     "image": "/assets/img/projects/authenticated-todo.png",
-    "tags": ["fullstack", "react", "crud", "typescript","autenticación"],
+    "tags": ["fullstack", "react", "crud", "typescript", "autenticación"],
     "external-site": "https://authenticated-todo-xsr.vercel.app/",
     "github": "https://github.com/xsrpm/authenticated-todo"
   },
