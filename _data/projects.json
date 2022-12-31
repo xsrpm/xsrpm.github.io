@@ -18,7 +18,7 @@
       "expressjs",
       "websockets"
     ],
-    "external-site": "https://battlecard-xsr.herokuapp.com/",
+    "external-site": "https://battlecard.netlify.app/",
     "github": "https://github.com/xsrpm/battlecard"
   },
   {
@@ -26,7 +26,7 @@
     "description": "Sala de chat",
     "image": "/assets/img/projects/chat-react.png",
     "tags": ["fullstack", "react", "expressjs", "websockets", "chat-realtime"],
-    "external-site": "https://chat-react-xsr.herokuapp.com/",
+    "external-site": "https://chat-react-xsr.netlify.app/",
     "github": "https://github.com/xsrpm/chat-react"
   },
   {
