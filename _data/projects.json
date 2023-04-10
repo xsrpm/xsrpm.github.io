@@ -1,33 +1,26 @@
 [
   {
-    "title": "Authenticated To-Do",
-    "description": "To-Do List App con Autenticación de usuario",
-    "image": "/assets/img/projects/authenticated-todo.png",
-    "tags": ["fullstack", "react", "crud", "typescript", "autenticación"],
-    "external-site": "https://authenticated-todo-xsr.vercel.app/",
-    "github": "https://github.com/xsrpm/authenticated-todo"
-  },
-  {
     "title": "BattleCard",
-    "description": "Juego de cartas usando barajas inglesas; para 2 personas en tiempo real",
+    "description": "Juego de cartas de 2 jugadores usando barajas inglesas",
     "image": "/assets/img/projects/battlecard.png",
-    "tags": [
-      "fullstack",
-      "javascript-vanilla",
-      "nodejs",
-      "expressjs",
-      "websockets"
-    ],
+    "tags": ["fullstack", "react", "nodejs", "expressjs", "websockets"],
     "external-site": "https://battlecard.netlify.app/",
     "github": "https://github.com/xsrpm/battlecard"
   },
   {
-    "title": "Chat React",
-    "description": "Sala de chat",
-    "image": "/assets/img/projects/chat-react.png",
-    "tags": ["fullstack", "react", "expressjs", "websockets", "chat-realtime"],
-    "external-site": "https://chat-react-xsr.netlify.app/",
-    "github": "https://github.com/xsrpm/chat-react"
+    "title": "Authenticated To-Do",
+    "description": "To-Do List App con Autenticación de usuario",
+    "image": "/assets/img/projects/authenticated-todo.png",
+    "tags": [
+      "fullstack",
+      "react",
+      "typescript",
+      "autenticación",
+      "crud",
+      "serverless"
+    ],
+    "external-site": "https://authenticated-todo-xsr.vercel.app/",
+    "github": "https://github.com/xsrpm/authenticated-todo"
   },
   {
     "title": "Rest Countries",
