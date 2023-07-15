@@ -8,21 +8,6 @@
     "github": "https://github.com/xsrpm/battlecard"
   },
   {
-    "title": "Authenticated To-Do",
-    "description": "To-Do List App con Autenticación de usuario",
-    "image": "/assets/img/projects/authenticated-todo.png",
-    "tags": [
-      "fullstack",
-      "react",
-      "typescript",
-      "autenticación",
-      "crud",
-      "serverless"
-    ],
-    "external-site": "https://authenticated-todo-xsr.vercel.app/",
-    "github": "https://github.com/xsrpm/authenticated-todo"
-  },
-  {
     "title": "Rest Countries",
     "description": "Web app para buscar información de países. Los datos son obtenidos de una api externa.",
     "image": "/assets/img/projects/rest-countries.png",
