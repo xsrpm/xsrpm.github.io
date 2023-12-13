@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "wingrunr21.vscode-ruby",
+    "streetsidesoftware.code-spell-checker-spanish",
+    "streetsidesoftware.code-spell-checker",
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "naumovs.color-highlight",
+    "ms-vscode-remote.remote-containers",
+    "usernamehw.errorlens",
+    "esbenp.prettier-vscode"
+  ]
+}
