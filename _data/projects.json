@@ -4,8 +4,7 @@
     "description": "Juego de cartas de 2 jugadores usando barajas inglesas",
     "image": "/assets/img/projects/battlecard.png",
     "tags": ["fullstack", "react", "nodejs", "expressjs", "websockets"],
-    "external-site": "https://battlecard.netlify.app/",
-    "github": "https://github.com/xsrpm/battlecard"
+    "external-site": "https://battlecard.netlify.app/"
   },
   {
     "title": "Rest Countries",
